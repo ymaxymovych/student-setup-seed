@@ -57,7 +57,7 @@ row free "~/Projects" $? "$PROJECTS"
 git_version=""
 git_ok && git_version="$(git --version)"
 [ -n "$git_version" ]
-row premium git $? "$git_version"
+row free git $? "$git_version"
 
 git_name=""
 git_email=""

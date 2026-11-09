@@ -17,7 +17,8 @@
 | Перевірка [Wispr Flow](https://wisprflow.ai/r?YAROSLAV235), Claude Desktop, [розширення Chrome](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) | ✓ | ✓ |
 | Правила роботи з тобою в глобальному `CLAUDE.md` | ✓ | ✓ |
 | Робоча тека `~/Projects` | ✓ | ✓ |
-| Git, Node.js 22 | | ✓ |
+| Git (потрібен для СКІЛ 0) | ✓ | ✓ |
+| Node.js 22 | | ✓ |
 | Стартовий проєкт TypeScript `hello-ts` | | ✓ |
 | [Docker Desktop](https://www.docker.com/products/docker-desktop/) | | ✓ |
 | [GitHub](https://github.com/): вхід, профіль, приватний репозиторій | | ✓ |
@@ -45,6 +46,14 @@
 
 Щось зламалось або комп’ютер перезавантажився — напиши «продовжуй» або встав повідомлення ще раз. Повтор безпечний: зроблене Claude пропустить.
 
+## Три повідомлення
+
+1. Цей сід — налаштовує комп’ютер.
+2. СКІЛ 0 — налаштовує проєкт (Claude сам запропонує його в кінці сіда).
+3. `/tz-go` — перша задача.
+
+Студент не відкриває ні термінал, ні Git Bash — усе в Claude Desktop, вкладка Code.
+
 ## Що зробити руками до сіда
 
 Потрібна підписка Claude Pro або вища. Система: Windows 10/11 або macOS.
@@ -68,7 +77,7 @@
 Чесну таблицю: що зроблено, який доказ, що лишилось від тебе, і один наступний крок.
 На безкоштовному рівні — налаштований Claude, який не вчить тебе командам, а робить усе сам.
 На преміумі — ще й готове робоче середовище, приватний репозиторій, власний домен і сервер.
-Далі можна переходити до [СКІЛу 0](https://github.com/ymaxymovych/tz-skills).
+Наприкінці Claude сам запропонує поставити [СКІЛ 0](https://github.com/ymaxymovych/tz-skills) одразу.
 
 Більше про цей крок — у [Карті скілів](https://claude.ai/artifact/19wLwpYN88D6VC7v2FpCgS#start-bez-klikiv).
 

@@ -47,7 +47,7 @@ Row 'free' '~/Projects' (Test-Path $projects) $projects
 # Premium tier
 $hasGit = Has 'git'
 $gitVersion = if ($hasGit) { [string](git --version) } else { '' }
-Row 'premium' 'git' $hasGit $gitVersion
+Row 'free' 'git' $hasGit $gitVersion
 $gitName = if ($hasGit) { [string](git config --global user.name) } else { '' }
 $gitEmail = if ($hasGit) { [string](git config --global user.email) } else { '' }
 Row 'premium' 'git identity' (($gitName -ne '') -and ($gitEmail -ne '')) "$gitName $gitEmail"
